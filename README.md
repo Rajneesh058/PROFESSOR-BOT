@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/105805201/192936277-dcc0fa25-a8d1-41c8-8039-00d383ea56c7.jpg" alt="Ajax Techz">
+  <img src="https://graph.org/file/e8a93db57425e8cd7d417.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>Movie-Finder-bot</b>
@@ -31,6 +31,12 @@
 - [x] Edit Font Of Your Text
 - [x] Text To Speach 
 - [x] Telegraph Link For Files
+- [x] File Store
+- [x] Image To Link Converter
+- [x] Single Group/User Messanger
+- [x] set Template In Group
+- [x] Get Id Of User/Group
+- [x] Manage Groups
 
 ## Variables
 
@@ -43,9 +49,12 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+* `AUTH_CHANNEL` : ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.
+* `RemoveBG_API` : background remover website api key. get from https://www.remove.bg/b/background-removal-api
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
-
+* `CUSTOM_FILE_CAPTION` : A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.
+* `START_MESSAGE` : bot start message text [ {user} = bot startd user name {bot} = your bot name
 
 ## Deploy
 You can deploy this bot anywhere.
@@ -53,12 +62,22 @@ You can deploy this bot anywhere.
 <i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtu.be/v7Vbu3u_VrE)**</i>
 
 
-<details><summary>Deploy To Heroku</summary>
+<details><summary>Deploy To Koyeb</summary>
 <p>
 <br>
 
-<a href="https://telegram.dog/XTZ_HerokuBot?start=TW92aWVzaW5kbmEvZmlsZS1maWx0ZXItYm90djUgbWFzdGVy">
-  <img src="https://user-images.githubusercontent.com/105805201/193201299-52085501-806c-4abc-8ba2-7e4d30106f7d.svg" alt="Deploy">
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/LazyPrincess&branch=master&name=lazyprincessbot">
+  <img src="https://user-images.githubusercontent.com/114851821/227539568-66584c8e-d117-4233-acfc-dcb3f7a02a88.svg" alt="Deploy">
+</a>
+</p>
+</details>
+
+<details><summary>Deploy To Render</summary>
+<p>
+<br>
+
+<a href="https://render.com/deploy">
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy">
 </a>
 </p>
 </details>
@@ -79,12 +98,12 @@ python3 bot.py
 ## Commands
 ```
 /start - check bot alive
-/ping - pong
+/stats - to get status of files in db.
+/group_broadcast - to broadcast message to all Groups
 /song - To download Mp3 Songs
 /video - To download Video From Yt
 /settings - get settings 
 /logs - to get the rescent errors
-/stats - to get status of files in db.
 /filter - add manual filters
 /filters - view filters
 /connect - connect to PM.
@@ -112,6 +131,10 @@ python3 bot.py
 /json - do download bot json
 /telegraph - reply me with this command to get link of image
 /purge - to delete all replied message 
+/ping - pong
+/set_template - To set template In group
+/usend - Send Message To Single user
+/gsend - send Message To single Group
 ```
 
 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Rajneesh Singh Tomar ](https://t.me/Rajneesh_Singh_Tomar)                                                                                                                                                                                 
