@@ -3,7 +3,7 @@ SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
 API_ID = 18293272
 API_HASH = '46b802cadbce8893e42fbe40dbe4d08f'
-BOT_TOKEN = '5993909509:AAEFWJS0tZF5rqTx_9eDEI5WwkXTjdLiOyo'
+BOT_TOKEN = '5400521707:AAG4wGde5pDZDGia3zJFq-5DVgND7Cifk1Y'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
@@ -21,7 +21,7 @@ SUPPORT_CHAT = 'Movie_Megaverse_Backup'
 
 # MongoDB information
 DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'Cluster0'
+DATABASE_NAME = 'Cluster1'
 COLLECTION_NAME = 'Telegram_files'  # If you are using the same database, then use different collection name for each bot
 
 
