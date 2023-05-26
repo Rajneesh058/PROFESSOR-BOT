@@ -53,7 +53,7 @@ RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hay 👋 {user}....😎\nwelcome to Our Group...\n😎You Can Find 🔍 Movies / Series / Animes etc.")
 PMFILTER = bool(environ.get("PMFILTER", True))
-G_FILTER = bool(environ.get("G_FILTER", True))
+G_FILTER = bool(environ.get("G_FILTER", False))
 BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
 
 # Others
